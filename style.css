@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    border: 2px solid #ccc;
+    width: 180px;
+    margin: 10px;
+}
+
+.card:hover {
+    border: 2px solid #333;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+p {
+    text-align: center;
+    margin: 16px;
+}
